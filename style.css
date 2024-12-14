@@ -1,0 +1,99 @@
+.header-link{
+    color: rgba(255,255,255,55%);
+}
+
+.header{
+    padding-top: 38px;
+    padding-bottom: 69px;
+    display: flex;
+    align-items: center;
+}
+
+.header-wrap{
+    align-items: center;
+}
+
+.header-logo{
+    font-family: 'Poppins';
+    font-size: 22px;
+    color: rgba(255,255,255,90%);
+}
+
+.header-logo::before{
+    content: "";
+    display: inline-block;
+    padding-right: 40px;
+    background-image: url(./images/logo.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 21px;
+}
+
+.header-item{
+    font-family: 'Poppins';
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding: 0px 24px;
+    
+}
+
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.header-list{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27px;
+}
+
+.header-pages{
+    
+}
+
+.header-registration{
+    display: flex;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+.header-button{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--background);
+    padding-right: 41px;
+    cursor: pointer;
+    color: rgba(255,255,255,78%);
+    
+}
+
+.header-second-button{
+    font-family: 'Poppins';
+    background-color: var(--second-main);
+    color: var(--white);
+    border: transparent;
+    border-radius: 8px;
+    padding: 12px 28px;
+    margin-top: -15px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.06em;
+    display: flex;    
+    line-height: 1.5;
+}
+
+.hero-title{
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: rgba(255,255,255,90%);
+}
+
+.dot{
+    color: var(--second-main);
+}
