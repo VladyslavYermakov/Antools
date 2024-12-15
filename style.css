@@ -81,8 +81,7 @@
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
-    letter-spacing: 0.06em;
-    display: flex;    
+    letter-spacing: 0.06em; 
     line-height: 1.5;
 }
 
@@ -96,4 +95,33 @@
 
 .dot{
     color: var(--second-main);
+}
+
+.hero-text{
+    font-family: 'Poppins';
+    color: rgba(255,255,255,55%);
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.search-input{
+    border-style: none;
+    background-color: var(--grey);
+    border-radius: 15px;
+    height: 64px;
+    width: 467;
+}
+
+.hero-btn{
+    font-family: 'Poppins';
+    background-color: var(--second-main);
+    color: var(--white);
+    border: transparent;
+    border-radius: 8px;
+    padding: 12px 28px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.06em; 
+    line-height: 1.5;
 }

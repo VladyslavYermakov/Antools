@@ -1,11 +1,12 @@
 :root {
+      --grey: #283036;
       --white: #FDF5FF;
       --background: #1E252B;
       --second-main: #FF6E30;
 
 }
 
-h1,h2,h3,h4,h5,h6,p,img,button,a{
+h1,h2,h3,h4,h5,h6,p,img,button,a,ul,li{
     margin: 0;
     padding: 0;
 }
@@ -21,8 +22,9 @@ a{
 
 .container{
     margin: 0 auto;
-    max-width: 1245px;
+    width: 1230px;
     padding: 0 15px;
+    outline: solid 2px gold;
 }
 
 button{
